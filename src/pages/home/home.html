@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Acceder al Chat
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item padding-top padding-bottom>
+    <ion-label stacked>Introduce tu nickname</ion-label>
+    <ion-input type="text" [(ngModel)]="nickname" placeholder="Nickname"></ion-input>
+  </ion-item>
+  <button margin-top ion-button full (click)="goChat()" [disabled]="nickname === ''">Entrar al Chat como {{ nickname }}</button>
+</ion-content>
