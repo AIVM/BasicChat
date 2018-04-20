@@ -1,5 +1,5 @@
 # BasicChat
-Este repositorio contendiene un chat básico con conexion websocket con la libreria Socket.io implementado en Ionic
+Este repositorio contiene un chat básico implementado en Ionic y con conexion websocket utilizando la libreria Socket.io
 <br>
 Acceso
 <br>
